@@ -90,7 +90,7 @@ export const musicInfo = shallowReactive<{
   name: string
   singer: string
   album: string | null
-  source: string
+  source: string | null
 }>({
   id: null,
   name: '^',
