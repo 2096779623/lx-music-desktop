@@ -24,6 +24,7 @@ const defaultFilter = [
   'lyricLineText',
   'duration',
   'progress',
+  'source',
   'playbackRate',
 ] satisfies SubscribeKeys[]
 

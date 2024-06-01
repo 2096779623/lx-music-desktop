@@ -246,6 +246,7 @@ export const initAppSetting = async() => {
         lyricLineText: '',
         lyricLineAllText: '',
         lyric: '',
+        source: '',
         collect: false,
       },
     }

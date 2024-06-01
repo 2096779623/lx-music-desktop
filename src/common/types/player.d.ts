@@ -28,6 +28,7 @@ declare namespace LX {
       lyricLineText: string
       lyricLineAllText: string
       lyric: string
+      source: string
       collect: boolean
     }
   }

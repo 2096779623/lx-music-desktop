@@ -10,6 +10,8 @@ import { pause, play, playNext, playPrev } from '@renderer/core/player'
 import { playProgress } from '@renderer/store/player/playProgress'
 import { appSetting } from '@renderer/store/setting'
 import { lyric } from '@renderer/store/player/lyric'
+import musicDetail from '@renderer/utils/musicSdk/wy/musicDetail'
+import { sourceNames } from '@renderer/store'
 
 export default () => {
   // const setVisibleDesktopLyric = useCommit('setVisibleDesktopLyric')
@@ -173,6 +175,7 @@ export default () => {
       playbackRate: appSetting['player.playbackRate'],
       picUrl: musicInfo.pic ?? '',
       lyric: musicInfo.lrc ?? '',
+      source:  musicInfo.source,
     })
   }
 }
