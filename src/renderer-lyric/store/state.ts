@@ -96,5 +96,5 @@ export const musicInfo = shallowReactive<{
   name: '^',
   singer: '^',
   album: null,
-  source: string
+  source: null,
 })
